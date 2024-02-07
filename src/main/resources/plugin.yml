@@ -1,0 +1,8 @@
+name: untitled
+version: '${project.version}'
+main: net.micphone.ai.untitled.Untitled
+api-version: '1.20'
+commands:
+  prompt:
+    description: Generates text using DashScope API
+    usage: /prompt <text>
